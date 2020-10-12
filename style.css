@@ -1,0 +1,285 @@
+html {
+  scroll-behavior: smooth;
+}
+.japanese {
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+}
+
+nav {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.navbar-brand {
+  font-family: "Oswald", sans-serif;
+  font-size: 26px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 7);
+}
+.navbar-brand p {
+  font-size: 10px;
+}
+
+.nav-link {
+  margin-right: 50px;
+}
+
+.tombol {
+  color: white;
+  border-radius: 20px;
+  background-color: #ec9700;
+}
+
+.tombol:hover {
+  color: white;
+}
+
+.jumbotron {
+  height: 768px;
+  position: relative;
+  top: -65px;
+  z-index: 0;
+  background-image: url("img/bg_header.png");
+  background-size: cover;
+  text-align: center;
+}
+
+.tombol-scroll {
+  margin-top: 200px;
+  position: relative;
+}
+
+.line-dashed {
+  position: relative;
+  top: 18px;
+}
+
+#main {
+  bottom: -100px;
+  background-image: url("img/jepang.PNG");
+  width: 100%;
+  height: 770px;
+  background-size: cover;
+}
+
+.title-sc {
+  position: relative;
+  z-index: 1;
+}
+.judul-sc {
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+  font-size: 80px;
+  position: relative;
+  z-index: 1;
+}
+.sub-sc {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  position: relative;
+  z-index: 1;
+  top: 20px;
+}
+
+.sub-gambar-sc {
+  text-align: right;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.content-sc {
+  background-image: url("img/orange-box.PNG");
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  bottom: 30px;
+}
+
+.gambar-sc {
+  margin-top: 30px;
+}
+
+.img-sc {
+  width: 100%;
+}
+/* company */
+
+.titlecomp-sc {
+  position: relative;
+  z-index: 1;
+  margin-left: 600px;
+}
+.judulcomp-sc {
+  margin-right: 10000000px;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+  font-size: 120px;
+  z-index: 1;
+}
+.subcomp-sc {
+  margin-right: 100px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  position: relative;
+  z-index: 1;
+  top: 20px;
+  margin-left: 5px;
+}
+
+.sub-gambarcomp-sc {
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin-left: 80px;
+}
+
+.contentcomp-sc {
+  background-image: url("img/blue-box2.PNG");
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  bottom: 50px;
+  font-size: 100px;
+}
+
+.gambarcomp-sc {
+  margin-top: 100px;
+}
+
+.img-compsc {
+  width: 80%;
+  top:15px;
+  margin-top: -35%;
+}
+.imgcomps-sc {
+  width: 80%;
+  top:15px;
+  margin-top: -20%;
+}
+.imgcomp-sc {
+  width: 80%;
+  top:15px;
+  margin-top: -9%;
+}
+/* work */
+
+.titles-sc {
+  position: relative;
+  z-index: 1;
+  margin-left: 20%;
+}
+.juduls-sc {
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+  font-size: 150px;
+  position: relative;
+  z-index: 1;
+  margin left: 20%;
+  top: 40px;
+}
+.subs-sc {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  position: relative;
+  z-index: 1;
+  top: 80px;
+  bottom: 40px;
+
+}
+
+.sub-gambars-sc {
+  text-align: right;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.contents-sc {
+  background-image: url("img/orange-box.PNG");
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  bottom: 30px;
+  
+}
+
+.gambars-sc {
+  margin-top: 30px;
+}
+
+.imgs-sc {
+  width: 100%;
+}
+/* RECRUIT */
+.titlere-sc {
+  position: relative;
+  z-index: 1;
+
+}
+.judulre-sc {
+  margin-right: 10000000px;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+  font-size: 90px;
+  z-index: 1;
+}
+.subre-sc {
+  margin-right: 100px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  position: relative;
+  z-index: 1;
+  top: 20px;
+}
+
+.sub-gambarre-sc {
+  text-align: right;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin-left: 80px;
+}
+
+.contentre-sc {
+  background-image: url("img/img_recruit.png");
+  height: 768px;
+  position: relative;
+  z-index: 0;
+  background-size: cover;
+  margin-top: -3%;
+}
+
+.gambarre-sc {
+  margin-top: 100px;
+}
+
+.img-compsc {
+  width: 80%;
+  top:15px;
+  margin-top: -35%;
+}
+.imgcomps-sc {
+  width: 80%;
+  top:15px;
+  margin-top: -20%;
+}
+.imgcomp-sc {
+  width: 80%;
+  top:15px;
+  margin-top: -9%;
+}
+
+@media screen and (max-width: 1080px) {
+
+}
